@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import com.Authentication.JwtProject.Models.AppUser;
 import com.Authentication.JwtProject.Repositories.UserRepository;
 
-import io.jsonwebtoken.lang.Collections;
+import java.util.Collections;
 
 import java.util.Optional;
 

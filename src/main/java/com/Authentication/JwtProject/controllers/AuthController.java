@@ -52,5 +52,6 @@ public class AuthController {
 		String token=jwtUtil.generateToken(request.getEmail());
 		return new AuthResponse(token);
 	}
+	
 }
 

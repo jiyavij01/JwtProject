@@ -31,6 +31,7 @@ public class StudentController {
 	{
 		College col=collegerepo.findById(id).orElseThrow(()-> new RuntimeException("college not found"));
 		std.setCollege(col);
+		
 		studentrepo.save(std);
 	}
 	
